@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #0e0e0e;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #111;
+  color: #00d9a0;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #00d9a0;
+}
+
+nav {
+  background-color: #1a1a1a;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00d9a0;
+}
+
+section {
+  padding: 25px;
+  background-color: #1a1a1a;
+  margin: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 217, 160, 0.1);
+}
+
+section h2 {
+  color: #00d9a0;
+  margin-bottom: 10px;
+}
+
+section ul li a {
+  color: #00d9a0;
+  text-decoration: none;
+}
+
+section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Resume button */
+.btn-download {
+  display: inline-block;
+  background-color: #00d9a0;
+  color: #000;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-download:hover {
+  background-color: #00b48a;
+  color: #fff;
+}
+
+/* Form Elements */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00d9a0;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00b48a;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #888;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* Screenshot Styling */
+.screenshot-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.screenshot-container img {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 217, 160, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.screenshot-container img:hover {
+  transform: scale(1.03);
+}
